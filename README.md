@@ -16,6 +16,7 @@ Directly from the terminal:
 
 --url : required url of an area from efood page
 -c : if you want comments only reviews.
+
 example:
 Python scraper.py -c --url 'https://www.e-food.gr/shops?address=%CE%9A%CE%B1%CF%81%CE%B1%CE%BF%CE%BB%CE%AE%20%CE%BA%CE%B1%CE%B9%20%CE%94%CE%B7%CE%BC%CE%B7%CF%84%CF%81%CE%AF%CE%BF%CF%85%204%2C%2045332%20%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B9%CE%BD%CE%B1%2C%20%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF&city=%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF&county=%CE%99%CF%89%CE%AC%CE%BD%CE%BD%CE%B9%CE%BD%CE%B1&latitude=39.665595&longitude=20.851233&nomap=0&street=%CE%9A%CE%B1%CF%81%CE%B1%CE%BF%CE%BB%CE%AE%20%CE%BA%CE%B1%CE%B9%20%CE%94%CE%B7%CE%BC%CE%B7%CF%84%CF%81%CE%AF%CE%BF%CF%85&street_no=4&zip=45332&area=%CE%9A%CE%AD%CE%BD%CF%84%CF%81%CE%BF&city_transliterated=&slug=%2F&deliverytype=0&scope=personal&t=1612299334489'.
 
