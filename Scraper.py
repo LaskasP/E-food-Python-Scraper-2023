@@ -13,6 +13,8 @@ args = parser.parse_args()
 startingUrl = args.url 
 if args.comment:
     comments = True
+else:
+    comments = False
 
 pathToReviews = "EfoodReviews.csv"
 pathToStoreInfo = "EfoodStoresInfo.csv"
@@ -24,7 +26,7 @@ shopUrls = soup.find('div', class_='shops-listings-shops-list')
 reviewsUrlpre = shopUrls.find_all('a', class_ = 'shops-listing-shop position-relative')
 reviewsUrls = []
 print('katasthmata: ' + str(len(reviewsUrlpre)))
-driver = webdriver.Chrome('E-food-Python-Scraper-2021\chromedriver.exe')
+driver = webdriver.Chrome('chromedriver.exe')
 
 for url in reviewsUrlpre:
     reviewsUrls.append('https://www.e-food.gr' + str(url.get('href')))
