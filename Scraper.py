@@ -61,7 +61,6 @@ def scrap_shop_info(shop_urls, driver, delay):
     last_year_qualities = []
     last_year_servicies = []
     last_year_speeds = []
-    last_year_speeds_inperson = []
     yummy = []
     values = []
     food_sizes = []
