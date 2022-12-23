@@ -19,4 +19,4 @@ You need webChromeDriver downloaded in the same folder to make it work.
 
 If you have any feature requests, don't hesitate to contact me :)
 
-# Use at your own risk, it might violate Efood policies.
+### H3 Use at your own risk, it might violate Efood policies.
